@@ -1,9 +1,20 @@
 import assemblyai as aai
 import os
 import logging
+from dotenv import load_dotenv
 
 logger = logging.getLogger(__name__)
-aai.settings.api_key = os.getenv("ASSEMBLY_API_KEY") or "8e9c5b4b248a4528b0734e14f02942f4"
+
+# Load variables from .env file
+load_dotenv()
+
+# Load API key from environment variable
+assemblyai_api_key = os.getenv("ASSEMBLYAI_API_KEY") or "4a792c3cad1d40c38b51f210e907a3ee"
+if not assemblyai_api_key:
+    logger.error("ASSEMBLYAI_API_KEY environment variable not set")
+    raise ValueError("ASSEMBLYAI_API_KEY environment variable is required")
+
+aai.settings.api_key = assemblyai_api_key
 
 
 def transcribe_audio(audio_bytes: bytes) -> str:

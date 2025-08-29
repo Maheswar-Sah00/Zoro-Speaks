@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Voice Agent</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h3>Zoro Speaks</h3>
+      <button id="configToggle" class="icon-btn">⚙️</button>
+    </div>
+
+    <!-- Black Chat Box -->
+    <div id="chat-log" class="chat-log">
+      <div class="message received">
+        Press "Start Recording" to begin.
+      </div>
+    </div>
+
+    <!-- Controls -->
+    <div class="controls">
+      <button id="startAndstopBtn">Start Recording</button>
+      <div class="loading" id="loading">
+        <div class="loading-dots">
+          <div class="dot"></div>
+          <div class="dot"></div>
+          <div class="dot"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sidebar for API Config -->
+  <div id="configSidebar" class="sidebar">
+    <div class="sidebar-header">
+      <h3>API Configuration</h3>
+      <button id="closeSidebar" class="icon-btn">❌</button>
+    </div>
+    <label>Murf API Key</label>
+    <input type="password" id="murfKey">
+    <label>AssemblyAI API Key</label>
+    <input type="password" id="assemblyKey">
+    <label>Gemini API Key</label>
+    <input type="password" id="geminiKey">
+    <label>News API Key</label>
+    <input type="password" id="newsKey">
+    <label>OpenWeather API Key</label>
+    <input type="password" id="weatherKey">
+
+    <button id="saveKeysBtn" class="save-btn">Save Keys</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
