@@ -4,6 +4,7 @@
 [![WebSockets](https://img.shields.io/badge/-WebSockets-000000?style=flat-square&logo=websocket&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
 [![AssemblyAI](https://img.shields.io/badge/-AssemblyAI-000000?style=flat-square&logo=assemblyai&logoColor=white)](https://www.assemblyai.com/)
 [![Gemini](https://img.shields.io/badge/-Gemini-6CC24A?style=flat-square)](https://developers.google.com/)
+[![MurfAI](https://img.shields.io/badge/-MurfAI-FF6F61?style=flat-square&logo=murf&logoColor=white)](https://murf.ai/)
 
 ---
 
