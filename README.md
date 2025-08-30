@@ -1,4 +1,4 @@
-# [🎙️ AI Voice Agent (Realtime)]((https://github.com/Maheswar-Sah00/Zoro-Speaks))
+# [🎙️ ZORO-SPEAKS]((https://github.com/Maheswar-Sah00/Zoro-Speaks))
 [![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
 [![WebSockets](https://img.shields.io/badge/-WebSockets-000000?style=flat-square&logo=websocket&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
@@ -10,7 +10,7 @@
 
 ## 📌 Project Overview
 
-The **AI Voice Agent (Realtime)** is a full-stack application for seamless real-time voice interaction. Users speak, and the system:
+The **Zoro-speaks** is a full-stack application with Zoro character persona for seamless real-time voice interaction. Users speak, and the system:
 
 1. Records your voice.
 2. Transcribes it to text using **AssemblyAI**.
@@ -94,4 +94,13 @@ If your JS frontend needs `npm` packages:
 npm install
 npm run dev
 ```
+---
+
+## 📜 License
+This project is licensed under the **MIT License**.
+
+---
+Challenge by: [!Murf AI 🎵](https://murf.ai/)
+Built by: Maheswar
+Challenge Hashtags: `#30DaysOfAIVoiceAgents` `#MurfAI` `#BuildInPublic`
 
