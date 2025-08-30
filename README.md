@@ -30,3 +30,30 @@ Built with **FastAPI** and **WebSockets**, this project integrates multiple AI A
 - 📂 **news updates** → Fetch latest news by topic using [Tavily](https://tavily.com/).
 - ⚡ **FastAPI + WebSockets** → Enables real-time communication between client and server.  
 
+---
+
+## 📂 Project Structure
+` Zoro-speaks
+│
+├─ Routes
+│ ├─ agent_chat.py
+│ ├─ config.py
+│ └─ transcriber.py
+│
+├─ services
+│ ├─ streamer.py
+│ ├─ stt_services.py
+│ ├─ tts_services.py
+│ ├─ gemini_services.py
+│ ├─ weather.py
+│ └─ news_services.py
+│
+├─ utils
+│ └─ logging.py
+│
+├─ index.html
+├─ main.py
+├─ style.css
+└─ script.js
+`
+---
