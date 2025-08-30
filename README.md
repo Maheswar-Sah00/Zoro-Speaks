@@ -33,26 +33,26 @@ Built with **FastAPI** and **WebSockets**, this project integrates multiple AI A
 ---
 
 ## 📂 Project Structure
-Zoro-speaks
+`
+Zoro-Speaks/
+│── Routes/
+│   ├── Agent_chat.py/          
+│   ├── transcriber.py/       
+│   |__ config.py/             
+│          
+│── Services/              
+│   ├── gemini_services.py          
+│   ├── tts_services.py                
+│   ├── stt_services.py               
+│   ├── streamer.py 
+|   ├── weather.py
+│   └── news_services.py
 │
-├─ Routes
-│ ├─ agent_chat.py
-│ ├─ config.py
-│ └─ transcriber.py
-│
-├─ services
-│ ├─ streamer.py
-│ ├─ stt_services.py
-│ ├─ tts_services.py
-│ ├─ gemini_services.py
-│ ├─ weather.py
-│ └─ news_services.py
-│
-├─ utils
-│ └─ logging.py
-│
-├─ index.html
-├─ main.py
-├─ style.css
-└─ script.js
-
+│── Utils/
+|   └── logging.py  
+|
+├── index.html             
+├── main.py             
+├── script.js
+├── style.css  
+`
