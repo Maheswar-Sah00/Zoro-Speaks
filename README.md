@@ -53,3 +53,44 @@ Zoro-Speaks/
 ├── script.js
 └── style.css
 ```
+## ⚙️ Setup & Installation
+---
+### 1️⃣ Clone the Repository
+```
+git clone https://github.com/Maheswar-Sah00/Zoro-Speaks.git
+cd Zoro-Speaks
+```
+
+### 2️⃣ Create a Virtual Environment
+` python -m venv venv `
+Activate it:
+- windows
+  `venv\Scripts\activate`
+- Mac/Linux
+  `source venv/bin/activate`
+
+### 3️⃣ Install Dependencies
+`pip install -r requirements.txt`
+
+### 4️⃣ Configure Environment Variables
+Create a  `.env` file with your API keys:
+```
+ASSEMBLYAI_API_KEY=your_assemblyai_api_key
+GEMINI_API_KEY=your_gemini_api_key
+MURF_API_KEY=your_murf_api_key
+OPENWEATHER_API_KEY=your_openweather_api_key
+TAVILY_API_KEY=your_tavily_api_key
+```
+
+### 5️⃣ Run the Server
+`uvicorn main:app --reload`
+- Server runs at: http://127.0.0.1:8000
+- Open `index.html` in your browser to test the app.
+  
+### 6️⃣ Optional: Install Frontend Dependencies
+If your JS frontend needs `npm` packages:
+```
+npm install
+npm run dev
+```
+
