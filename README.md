@@ -33,7 +33,7 @@ Built with **FastAPI** and **WebSockets**, this project integrates multiple AI A
 ---
 
 ## 📂 Project Structure
-`
+```
 Zoro-Speaks/
 ├── Routes/
 │   ├── agent_chat.py
@@ -52,4 +52,4 @@ Zoro-Speaks/
 ├── main.py
 ├── script.js
 └── style.css
-`
+```
