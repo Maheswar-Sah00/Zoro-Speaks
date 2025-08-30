@@ -66,8 +66,10 @@ cd Zoro-Speaks
 ` python -m venv venv `
 Activate it:
 - windows
+  
   `venv\Scripts\activate`
 - Mac/Linux
+  
   `source venv/bin/activate`
 
 ### 3️⃣ Install Dependencies
@@ -100,7 +102,9 @@ npm run dev
 This project is licensed under the **MIT License**.
 
 ---
-Challenge by: [!Murf AI 🎵](https://murf.ai/)
+Challenge by: [Murf AI 🎵](https://murf.ai/)
+
 Built by: Maheswar
+
 Challenge Hashtags: `#30DaysOfAIVoiceAgents` `#MurfAI` `#BuildInPublic`
 
