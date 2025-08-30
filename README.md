@@ -5,6 +5,8 @@
 [![AssemblyAI](https://img.shields.io/badge/-AssemblyAI-000000?style=flat-square&logo=assemblyai&logoColor=white)](https://www.assemblyai.com/)
 [![Gemini](https://img.shields.io/badge/-Gemini-6CC24A?style=flat-square)](https://developers.google.com/)
 
+---
+
 ## 📌 Project Overview
 
 The **AI Voice Agent (Realtime)** is a full-stack application for seamless real-time voice interaction. Users speak, and the system:
@@ -15,6 +17,8 @@ The **AI Voice Agent (Realtime)** is a full-stack application for seamless real-
 4. Converts the response back to speech with **Murf TTS**.
 
 Built with **FastAPI** and **WebSockets**, this project integrates multiple AI APIs to provide a smooth, interactive conversational experience.
+
+---
 
 ## 🚀 Features
 
