@@ -1,0 +1,6 @@
+# [🎙️ AI Voice Agent (Realtime)]((https://github.com/Maheswar-Sah00/Zoro-Speaks))
+[![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/-FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![WebSockets](https://img.shields.io/badge/-WebSockets-000000?style=flat-square&logo=websocket&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/API/WebSockets_API)
+[![AssemblyAI](https://img.shields.io/badge/-AssemblyAI-000000?style=flat-square&logo=assemblyai&logoColor=white)](https://www.assemblyai.com/)
+[![Gemini](https://img.shields.io/badge/-Gemini-6CC24A?style=flat-square)](https://developers.google.com/)
