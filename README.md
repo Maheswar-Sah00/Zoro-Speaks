@@ -52,5 +52,4 @@ Zoro-Speaks/
 ├── main.py
 ├── script.js
 └── style.css
- 
 `
